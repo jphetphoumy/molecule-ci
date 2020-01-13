@@ -17,4 +17,5 @@ RUN apk update && apk add --no-cache \
   libffi-dev \
   openssl-dev \
   openssh \
+  jq \
   && pip3 install ansible molecule docker
